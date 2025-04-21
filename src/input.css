@@ -3,7 +3,8 @@
 @plugin "daisyui" {
   themes: ligtht --default;
 }
-@plugin ["tailwindcss-motion", "tailwindcss-intersect"];
+@plugin "tailwindcss-motion";
+@plugin "tailwindcss-intersect";
 
 @theme {
   --font-display: "Consolas", sans-serif;
