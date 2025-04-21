@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.27",
+    "tailwindcss-intersect": "^2.2.0",
+    "tailwindcss-motion": "^1.1.0"
+  }
+}

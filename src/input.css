@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@source "./src/*.{html,js}";
+@plugin "daisyui" {
+  themes: ligtht --default;
+}
+@plugin ["tailwindcss-motion", "tailwindcss-intersect"];
+
+@theme {
+  --font-display: "Consolas", sans-serif;
+  --shadow-3xl: 3px 3px 0px 0px rgba(0, 0, 0);
+  --shadow-4xl: 8px 8px 0px 0px rgba(0, 0, 0);
+}
